@@ -1,6 +1,6 @@
 # Azure Container and Disaster Recovery Labs
 
-Two hands-on Azure labs built from the command line with the Azure CLI and Docker:
+I built these two labs to get hands-on with two core CloudOps skills: running containerized workloads and recovering from data loss. Both were built from the command line with the Azure CLI and Docker:
 
 1. **Container Lab:** containerized a Python app, pushed it to a private Azure Container Registry, and deployed it to Azure Container Instances using a least-privilege managed identity.
 2. **Disaster Recovery Lab:** protected a Linux VM with Azure Backup, simulated data loss, restored the disk from a recovery point, and recovered the lost file without impacting the running system.
